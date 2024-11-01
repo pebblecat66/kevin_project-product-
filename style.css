@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/wp4734410.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    }
+
+.logo{
+   width: 325px;
+   height: 250px;
+   padding: 50px;
+   cursor: pointer;
+}
+   .content h1{
+    font-size: 64px;
+    color: aquamarine;
+    font-weight: 600;
+   }
+   .content h1 span{
+    color: blanchedalmond;
+   }
+   .content p{
+    color: crimson;
+   }
+   .content span{
+    color: aqua;
+   }
+.launch-time {
+    display: flex;
+}
+.launch-time div {
+    flex-basis: 100px;
+}
+.launch-time div p {
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.content button{
+    background: transparent;
+    border: 2px solid rgb(52, 132, 236); 
+    outline: none;
+    padding: 12px 24px; 
+    color: rgb(228, 30, 30);
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.content button img{
+    width: 15px;
+    margin-left: 10px;
+}
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+.content{
+    top: 50%;
+    position: absolute;
+    color: cyan;
+}

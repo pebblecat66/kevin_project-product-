@@ -1,0 +1,139 @@
+.container{
+    width: 105%;
+    min-height: 100vh;
+    background-image: url(images/bdaa078b959811fc5f56cd02512bb22c.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+.product{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
+.gallery{
+    flex-basis: 47%;
+    background: transparent;
+    transform: scale(1.08);
+    box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.details{
+    flex-basis: 53%;
+    background-color: black;
+    padding: 40px;
+    padding-left: 60px;
+    box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.details h1{
+    color: crimson;
+    font-size: 35px;
+}
+.details h2{
+    color: greenyellow;
+    font-size: 30px;
+}
+.details h3{
+    color: chartreuse;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.details form{
+    font-size: 15px;
+    font-weight: 400;
+}
+.option{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.gallery img{
+    width: 100%;
+    display: block;
+    padding-top: 100px;
+}
+.option input:checked + span {
+    color: aqua;
+    font-weight: 600;
+}
+.color {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.color span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.color p {
+    width: 75px;
+}
+.color-1 {
+    background-color: blue;
+}
+.color-2 {
+    background-color: orange;
+}
+.color-3 {
+    background-color: palevioletred;
+}
+.color-4 {
+    background-color: purple;
+}
+.color input {
+    display: none;
+}
+.color input:checked + span {
+    transform: scale(0.7);
+    box-shadow: 0 0 0 4px aquamarine, 0 0 0 6px red;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.quamtity p{
+    width: 75px;
+}
+.quantity input{
+    border: 0;
+    outline: 0;
+    padding: 2px 2px 2px 15px;
+    width: 50px;
+    border-radius: 12px;
+}
+form button{
+    background-image: url(images/4602828.jpg);
+    color: aliceblue;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    box-shadow: 0px 10px 10px rgba(05, 03, 240, 0.25);
+    cursor: pointer;
+}
+.controls {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.btn{
+    display: block;
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styleproduct.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="images/ps.jfif" alt="ps" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>PS7 Ultimate Series</h1>
+                <h2>Rp:11.250.000</h2>
+                <h3>(diskon: 25%)</h3>
+                <h4>The PlayStation ultimate (PS7) is a home video game console developed by Sony Interactive Entertainment. It was announced as the successor to the PlayStation 6 in April 2025, was launched on November 12, 2028, in Australia, Japan, New Zealand, North America, and South Korea. With 4 versions available for purchase with their own advantages and disadvantages.</h4>
+                <form>
+                    <div class="option">
+                        <p>Option :</p>
+                        <label for="disc-archangel"> 
+                            <input type="radio" name="option" id="disc-archangel">
+                            <span>PS Ultimate Disc Archangel</span>
+                        </label>
+                        <label for="disc-vulcanic"> 
+                            <input type="radio" name="option" id="disc-vulcanic">
+                            <span>PS Ultimate Disc Vulcanic</span>
+                        </label>
+                        <label for="disc-nebula"> 
+                            <input type="radio" name="option" id="disc-nebula">
+                            <span>PS Ultimate Disc Nebula</span>
+                        </label>
+                        <label for="disc-twilight"> 
+                            <input type="radio" name="option" id="disc-twilight">
+                            <span>PS Ultimate Disc Twilight</span>
+                        </label>
+                    </div>
+
+                    <div class="color">
+                        <p>Color</p>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue" data-image="images/ps.JFIF">
+                        <span class="color-1"></span>
+                        </label>
+                        <label for="orange">
+                            <input type="radio" name="color" id="orange" data-image="images/different.JFIF">
+                        <span class="color-2"></span>
+                        </label>
+                        <label for="palevioletred">
+                            <input type="radio" name="color" id= "palevioletred" data-image="images/pinkps5.JFIF">
+                        <span class="color-3"></span>
+                        </label>
+                        <label for="purple">
+                            <input type="radio" name="color" id="purple" data-image="images/twilight.JFIF">
+                        <span class="color-4"></span>
+                        </label>
+                    </div>
+                    <div class="quantity">
+                        <p>Quantity:</p>
+                        <input type="number" id="quantityinput" value="1" min="1">
+                        <p id="stockinfo"></p>
+                    </div>
+                    <a href="#"> <button type="button" id="buybutton">Tambahkan ke keranjang</button></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scriptproduct.js"></script>
+</body>
+</html>
